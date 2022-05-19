@@ -1,0 +1,87 @@
+/* colors
+red
+green
+yellow */
+
+/* UTILS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* GENERICS */
+
+.bg-red{
+    background-color: red;
+}
+.bg-green{
+    background-color: green;
+}
+.bg-yellow{
+    background-color: yellow;
+}
+h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+body{
+    font-family: 'Rubik Mono One', sans-serif;;
+}
+.border-radius{
+    border-radius: 50%;
+    background-color: white;
+    padding: 10px;
+}
+/* HEADER */
+
+nav{
+    position: fixed;
+    z-index: 1;
+    top: 40px;
+    right:50px;
+    
+    
+}
+.border-radius{
+    border-radius: 50%;
+    background-color: white;
+}
+a{
+    width: 40px;
+    height: 40px;
+    margin:10px;
+    text-decoration: none;
+    font-weight:bold;
+}
+/* MAIN */
+
+.full-page-img{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.shoes-description{
+    position: absolute;
+    top: 85%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* BG-IMMAGINI */
+.shoe-1{
+    background-image: url(../img/01.png);
+}
+.shoe-2{
+    background-image: url(../img/02.png);
+}
+.shoe-3{
+    background-image: url(../img/03.png);
+}
